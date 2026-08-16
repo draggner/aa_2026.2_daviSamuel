@@ -6,7 +6,7 @@
 | 1.000            | 6200              | 15700              |
 | 10.000           | 52200             | 21200              |
 | 100.000          | 59180             | 16300              |
-| 1.000.000        | X                 | X                  |
+| 1.000.000        | 1172000           | 63400              |
 
 ##### Busca Linear e Busca Binária
 **Complexidade aplicada - Busca Linear**: A busca linear consiste resumidamente em comparar elemento por elemtno, logo se o tamanho do vetor dobra, o tempo médio de execução também dobra.
