@@ -20,12 +20,12 @@ public class ComparaBuscas {
     }
 
     public static void main(String[] args) {
-        int tamanho = 100;
+        int tamanho = 1000;
         int[] vetor = new int[tamanho];
         for (int i = 0; i < tamanho; i++) {
             vetor[i] = i * 2;
         }
-        int alvoBuscado = 98;
+        int alvoBuscado = 998;
 
         long inicioBuscaLinear = System.nanoTime();
         int posicaoBuscaLinear = buscaLinear(vetor, alvoBuscado);
