@@ -1,11 +1,21 @@
+import java.util.Arrays;
 
 public class ComparaBuscas {
 
     public static int buscaLinear(int[] vetor, int alvoBuscado) {
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] == alvoBuscado) {
+                return i;
+            }
+        }
         return -1;
     }
 
     public static int buscaBinaria(int[] vetor, int alvoBuscado) {
+        int resultado = Arrays.binarySearch(vetor, alvoBuscado);
+        if (resultado >= 0) {
+            return resultado;
+        }
         return -1;
     }
 
