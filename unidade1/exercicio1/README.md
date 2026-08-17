@@ -1,3 +1,4 @@
+### Exercício 01 - Unidade 01
 #### Investigando Força Bruta - ComparaBuscas.java
 | Tamanho do Vetor | Busca Linear (ms) | Busca Binária (ms) |
 |------------------|-------------------|--------------------|
@@ -12,3 +13,7 @@
 **Complexidade aplicada - Busca Linear**: A busca linear consiste resumidamente em comparar elemento por elemtno, logo se o tamanho do vetor dobra, o tempo médio de execução também dobra.
 
 **Complexidade aplicada - Busca Binária**:  Diferente da **Busca Linear**, a Binária busca dividir o espaço de busca pela metade, ou seja, mesmo se houver o aumento do vetor, terá uma busca bem mais eficiente.
+
+#### Análises e Conclusão
+
+Conforme ilustrado na tabela e os tamanhos do vetor, o tempo da busca linear se dispara, enquanto o tempo da busca binária permanece quase constante visualmente. Em meios mais práticos, pode ser mostrado a complexidade do uso `O(log _n_)` é extremamente mais eficiente que o `O(_n_)` para grande volumes de dados.
