@@ -20,12 +20,13 @@ public class BuscarVetor {
     }
 
     public static void main(String[] args) {
-        int tamanho = 1000000;
-        int[] vetor = new int[tamanho];
+        int tamanho = 10000000; 
+        int[] vetor = new int[tamanho];        
         for (int i = 0; i < tamanho; i++) {
             vetor[i] = i * 2;
         }
-        int alvoBuscado = 999998;
+        
+        int alvoBuscado = (tamanho - 1) * 2;
 
         long inicioBuscaLinear = System.nanoTime();
         int posicaoBuscaLinear = buscaLinear(vetor, alvoBuscado);
