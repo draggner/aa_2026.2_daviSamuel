@@ -16,4 +16,4 @@
 
 #### Análises e Conclusão
 
-Conforme ilustrado na tabela e os tamanhos do vetor, o tempo da busca linear se dispara, enquanto o tempo da busca binária permanece quase constante visualmente. Em meios mais práticos, pode ser mostrado a complexidade do uso `O(log _n_)` é extremamente mais eficiente que o `O(_n_)` para grande volumes de dados.
+Conforme ilustrado na tabela e os tamanhos do vetor, o tempo da busca linear se dispara, enquanto o tempo da busca binária permanece quase constante visualmente. Em meios mais práticos, pode ser mostrado a complexidade do uso O(log _n_) é extremamente mais eficiente que o O(_n_) para grande volumes de dados.
