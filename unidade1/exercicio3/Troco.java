@@ -3,11 +3,14 @@ package unidade1.exercicio3;
 public class Troco {
   public static void main(String[] args) {
     int[] cedulasDisponiveis = { 100, 50, 20, 10, 5, 2, 1 };
-    int trocoPara = 125;
+    int trocoPara = 287;
     int[] cedulasUsadas = new int[cedulasDisponiveis.length];
 
     for (int i = 0; i < cedulasDisponiveis.length; i++) {
-
+      while (trocoPara >= cedulasDisponiveis[i]) {
+        trocoPara -= cedulasDisponiveis[i];
+        cedulasUsadas[i]++;
+      }
     }
     
     System.out.println("Cédulas usadas:");
