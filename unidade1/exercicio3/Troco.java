@@ -16,7 +16,7 @@ public class Troco {
     System.out.println("Cédulas usadas:");
     for (int i = 0; i < cedulasDisponiveis.length; i++) {
       if (cedulasUsadas[i] > 0) {
-        System.out.println("R$ " + cedulasUsadas[i] + ",00 == " + cedulasDisponiveis[i]);
+        System.out.println("R$ " + cedulasDisponiveis[i] + ",00 == " + cedulasUsadas[i]);
       }
     }
   }
